@@ -1,0 +1,17 @@
+.layoutContainer {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+}
+
+app-sidebar {
+  width: 30%;
+}
+
+app-content {
+  width: 90%;
+  padding: 20px;
+  background-color: #f8f9fa;
+  overflow-y: auto;
+}
